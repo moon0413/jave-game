@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Maingame {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("어떤 게임을 원하시나요?");
+		System.out.println(" 1.HEALTH 2.MINIGAME1 3.MINIGAME2 4.MINIGAME3");
+		System.out.println("원하는 게임을 하나를 골라 단어를 입력하세요(대문자로 입력)");
+		String start = sc.next();
+		Game game = Game.valueOf(start);
+		WhatGame(game);
+	}
+
+	public static void WhatGame(Game game) {
+		A a = new A();
+		Minigame1 m1 = new Minigame1();
+		Minigame2 m2 = new Minigame2();
+		M3 m3 = new M3();
+		switch (game) {
+		case HEALTH -> a.DayOne();
+		case MINIGAME1 -> m1.start();
+		case MINIGAME2 -> m2.Mini();
+		default -> System.out.println("제대로 입력해주세요");
+		}
+	}
+}
+
+enum Game {
+	HEALTH, MINIGAME1, MINIGAME2, MINIGAME3
+}
