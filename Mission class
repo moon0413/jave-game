@@ -1,0 +1,106 @@
+class A extends Problems {
+	void DayOne() {
+		System.out.println("안녕 나는 너의 수호 요정이야! 나는 항상 너의 곁에 있었는데, ");
+		System.out.println("최근 너의 건강이 걱정 되어서 모습을 드러내게 됐어! 나에게 주어진 시간을 14일이야.");
+		System.out.println("너는 그 안에 내가 안내하는 미션을 모두 수행해야돼. 14일 동안의 미션들을 너의 <습관>으로 만들면 너는 건강해질 수 있어! ");
+		System.out.println("미션을 수행하기 위해서는 매일 문제를 풀어야하는데, 틀리면 다시 풀어볼 수 있어! ");
+		System.out.println("그럼 오늘부터 시작해보자!");
+		System.out.println();
+
+		System.out.println("오늘은 첫번째날이야. 건강해지기 첫 걸음은 3끼 챙겨 먹기야!");
+		System.out.println("앗 그런데 네가 먹을 저녁 식사를 가지고 있는 몬스터를 만났어. 몬스터가 내는 문제를 맞추면 저녁을 먹을 수 있어!");
+		One();
+	}
+
+	void DayTwo() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 2번째 날이야. 오늘의 미션은 '일찍 자고 일찍 일어나기'야!");
+		System.out.println("너의 알람시계를 먹어버린 몬스터가 있어. 몬스터가 내는 문제를 맞추면 알람시계를 돌려준대!");
+		Two();
+	}
+
+	void DayThree() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 3번째 날이야. 오늘의 미션은 '금주하기'야!");
+		System.out.println("금주하려면 술을 선물로 두고가는 몬스터를 물리쳐야해. 몬스터가 내는 문제를 맞추면 물리칠 수 있어!");
+		Three();
+	}
+
+	void DayFour() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 4번째 날이야. 오늘의 미션은 '물 5잔 마시기'야!");
+		System.out.println("욕심 많은 몬스터가 네가 마실 물을 다 가지고 있어. 몬스터가 내는 문제를 맞추면 물을 받을 수 있어!");
+		Four();
+	}
+
+	void DayFive() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 5번째 날이야. 오늘의 미션은 '금연하기'야!");
+		System.out.println("몬스터가 수제 담배를 마구마구 주고 있어! 몬스터가 내는 문제를 맞추면 담배를 다 물에 넣어버려서 금연할 수 있어!");
+		Five();
+	}
+
+	void DaySix() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 6번째 날이야. 오늘의 미션은 '무산소 2시간 하기'야! 간단한 덤벨부터 시작하자!");
+		System.out.println("마침 덤벨 5kg 2개를 갖고있는 몬스터가 나타났어! 몬스터가 내는 문제를 맞추면 덤벨을 받을 수 있어!");
+		Six();
+	}
+
+	void DaySeven() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 7번째 날이야. 오늘의 미션은 '유산소 1시간 하기'야! 학교 운동장 트렉 뛰면 되겠다!");
+		System.out.println("그런데 운동장 트렉에 엄청 큰 몬스터가 누워있어서 지나갈 수가 없네ㅠㅠ 몬스터가 내는 문제를 맞추면 트렉에서 나와주겠대!");
+		Seven();
+	}
+
+	void DayEight() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 8번째 날이야. 오늘의 미션은 '물 8잔 마시기'야!");
+		System.out.println("욕심 많은 몬스터가 네가 마실 물을 다 가지고 있어. 몬스터가 내는 문제를 맞추면 물을 받을 수 있어!");
+		Eight();
+	}
+
+	void DayNine() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 9째 날이야. 오늘의 미션은 '군것질 하지 않기'야!");
+		System.out.println("맛있는 과자를 먹이는게 취미인 몬스터가 너에게 과자를 주려고해ㅠㅠ 몬스터가 내는 문제를 맞추면 몬스터가 상처받지 않게 과자를 거절할 수 있어!");
+		Nine();
+	}
+
+	void DayTen() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 10번째 날이야. 오늘의 미션은 '유산소 2시간 하기'야!");
+		System.out.println("그런데 운동장 트렉에 엄청 큰 몬스터가 누워있어서 지나갈 수가 없네ㅠㅠ 몬스터가 내는 문제를 맞추면 트렉에서 나와주겠대!");
+		Ten();
+	}
+
+	void DayEleven() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 11번째 날이야. 오늘의 미션은 '아침 명상 하기'야!");
+		System.out.println("그런데 명상에 방해되는 시끄러운 몬스터가 나타났어.. 몬스터가 내는 문제를 맞추면 조용히 해주겠대!");
+		Eleven();
+	}
+
+	void DayTwelve() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 12번째 날이야. 오늘의 미션은 '물 10잔 마시기'야!");
+		System.out.println("욕심 많은 몬스터가 네가 마실 물을 다 가지고 있어. 몬스터가 내는 문제를 맞추면 물을 받을 수 있어!");
+		Twelve();
+	}
+
+	void DayThirteen() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 13번째 날이야. 오늘의 미션은 '필라테스 하기'야!");
+		System.out.println("필라테스 비용을 가지고 있는 몬스터가 나타났어. 몬스터가 내는 문제를 맞추면 필라테스 등록금을 받을 수 있어!");
+		Thirteen();
+	}
+
+	void DayFourteen() {
+		System.out.println("정답이야. 오늘의 미션은 성공이네!");
+		System.out.println("오늘은 건강해지기 프로젝트 14번째 날이야. 오늘의 미션은 '요가하기'야!");
+		System.out.println(
+				"그런데 요가를 사악하게 가르치게 선생님을 조종하는 몬스터가 나타났어. 그럼 넌 내일 근육통에 고통 받겠지.." + "몬스터가 내는 문제를 맞추면 좋은 요가 선생님을 소개해주겠대!");
+		Fourteen();
+	}
+}
