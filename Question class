@@ -1,0 +1,315 @@
+import java.util.Scanner;
+
+class Error extends Problems {
+	void Q1() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		One();
+	}
+
+	void Q2() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Two();
+	}
+
+	void Q3() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Three();
+	}
+
+	void Q4() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Four();
+	}
+
+	void Q5() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Five();
+	}
+
+	void Q6() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Six();
+	}
+
+	void Q7() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Seven();
+	}
+
+	void Q8() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Eight();
+	}
+
+	void Q9() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Nine();
+	}
+
+	void Q10() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Ten();
+	}
+
+	void Q11() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Eleven();
+	}
+
+	void Q12() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Twelve();
+	}
+
+	void Q13() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Thirteen();
+	}
+
+	void Q14() {
+		System.out.println("틀렸어. 다시 한번 풀어봐.");
+		Fourteen();
+	}
+}
+
+class Problems {
+	void One() {
+		System.out.println("1번문제");
+		System.out.println("인공지능학부 입학 정원은?(정답 번호만 입력)");
+		System.out.println("1.50명 2.40명 3.30명 4.20명 5.10명");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 1 -> b.DayTwo();
+			case 2, 3, 4, 5 -> e.Q1();
+			}
+		}
+	}
+
+	void Two() {
+		System.out.println("2번문제");
+		System.out.println("객지프 교수님의 성함은?");
+		System.out.println("1.김향균 2.김형균 3.김현군 4.이상균 5.김현귱");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		Error e = new Error();
+		A b = new A();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 2 -> b.DayThree();
+			case 1, 3, 4, 5 -> e.Q2();
+			}
+		}
+	}
+
+	void Three() {
+		System.out.println("3번문제");
+		System.out.println("객체지향프로그래밍에서 사용하는 컴퓨터 언어는?");
+		System.out.println("1.파이썬 2.C언어 3.자바스크립트 4.자바 5.기계어");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 4 -> b.DayFour();
+			case 1, 2, 3, 5 -> e.Q3();
+			}
+		}
+	}
+
+	void Four() {
+		System.out.println("4번문제");
+		System.out.println("객지프에서 사용하는 자바 툴 이름은?");
+		System.out.println("1.큐티 2.프로그래머스 3.이클립스 4.파이참 5.주피터노트북");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 3 -> b.DayFive();
+			case 1, 2, 4, 5 -> e.Q4();
+			}
+		}
+
+	}
+
+	void Five() {
+		System.out.println("5번문제");
+		System.out.println("우리나라 수도는?");
+		System.out.println("1.일산 2.포항 3.서울 4.광양 5.아산");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 3 -> b.DaySix();
+			case 1, 2, 4, 5 -> e.Q5();
+			}
+		}
+
+	}
+
+	void Six() {
+		System.out.println("6번문제");
+		System.out.println("애플 창업자 이름은?");
+		System.out.println("1.스티브 잡스 2.포항 3.서울 4.광양 5.아산");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 1 -> b.DaySeven();
+			case 3, 2, 4, 5 -> e.Q6();
+			}
+		}
+	}
+
+	void Seven() {
+		System.out.println("7번문제");
+		System.out.println("올해 년도는?");
+		System.out.println("1.2022 2.2021 3.2020 4.2019 5.2018");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 1 -> b.DayEight();
+			case 3, 2, 4, 5 -> e.Q7();
+			}
+		}
+	}
+
+	void Eight() {
+		System.out.println("8번문제(계산문제)");
+		System.out.println("14 X 6 =?");
+		System.out.println("1.3 2.4 3.5 4.8 5.84");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 5 -> b.DayNine();
+			case 3, 2, 4, 1 -> e.Q8();
+			}
+		}
+	}
+
+	void Nine() {
+		System.out.println("9번문제(계산문제)");
+		System.out.println("3 X 3 =?");
+		System.out.println("1.3 2.4 3.5 4.8 5.9");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 5 -> b.DayTen();
+			case 3, 2, 4, 1 -> e.Q9();
+			}
+		}
+	}
+
+	void Ten() {
+		System.out.println("10번문제(계산문제)");
+		System.out.println("12 X 12 =?");
+		System.out.println("1.3 2.144 3.5 4.8 5.9");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 2 -> b.Eleven();
+			case 3, 5, 4, 1 -> e.Q10();
+			}
+		}
+
+	}
+
+	void Eleven() {
+		System.out.println("11번문제(계산문제)");
+		System.out.println("4 + 3 =?");
+		System.out.println("1.7 2.4 3.5 4.8 5.9");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 1 -> b.DayTwelve();
+			case 3, 2, 4, 5 -> e.Q11();
+			}
+		}
+	}
+
+	void Twelve() {
+		System.out.println("12번문제(계산문제)");
+		System.out.println("(25+7)/2 *6 =?");
+		System.out.println("1.3 2.4 3.96 4.8 5.9");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 3 -> b.DayThirteen();
+			case 5, 2, 4, 1 -> e.Q12();
+			}
+		}
+	}
+
+	void Thirteen() {
+		System.out.println("13번문제(계산문제)");
+		System.out.println("37 - 5 X 2 + 7 =?");
+		System.out.println("1.3 2.4 3.5 4.34 5.9");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 4 -> b.Fourteen();
+			case 3, 2, 5, 1 -> e.Q13();
+			}
+		}
+	}
+
+	void Fourteen() {
+		System.out.println("14번문제(계산문제)");
+		System.out.println("6 / 2 + 3 X 5 =?");
+		System.out.println("1.3 2.4 3.5 4.18 5.9");
+		Scanner a = new Scanner(System.in);
+		int sum;
+		A b = new A();
+		Error e = new Error();
+		while ((sum = a.nextInt()) != 0) {
+			switch (sum) {
+			case 4 -> End();
+			case 3, 2, 5, 1 -> e.Q14();
+			}
+		}
+	}
+
+	void End() {
+		System.out.println("이제 '14일 동안 건강해지기 프로젝트'가 끝났어. 그동안 생활 습관 바꾸느라 수고 많았어.");
+		System.out.println("하지만 앞으로도 이 습관을 유지해야돼. 그렇지 않으면 건강은 금방 다시 망가지고 말거야.");
+		System.out.println("너의 목숨이 위험할 정도로 건강이 나빠져야 내가 다시 나올 수 있겠지만, 난 네 눈 앞에 다시 나오고 싶지 않아.");
+		System.out.println("앞으로 건강 관리 잘해서 만날 일 없게 하자!! 파이팅!");
+	}
+}
+
+public class Question {
+	public static void main(String[] args) {
+
+	}
+}
